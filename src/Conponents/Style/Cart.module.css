@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main > div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3rem;
+}
+
+.img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.Cart {
+    display: flex;
+    gap:9rem;
+}
+
+.updateCartSelect{
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #b6caca;
+    border-radius: 5px;
+}
+
+.delete{
+    background-color: #b6caca;
+    color: black;
+    background-color: 1px solid black;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 760px) {
+    .Cart {
+        display: flex;
+        gap:4rem;
+    }
+  }
+  
+

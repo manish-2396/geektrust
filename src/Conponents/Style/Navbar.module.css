@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 2rem;
+  gap:2rem;
+  background-color: #f0f1f1;
+}
+
+a{
+  color: black;
+}
+
+.newcart{
+  width: 2.4rem;
+  font-size: 2rem;
+  border: 1px solid  #f0f1f1;
+  height: 2.3rem;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #b6caca;
+}
+
+
+.qunatutyCart{
+  color: green;
+  position: relative;
+  left: 30px;
+  top: -45px;
+  text-decoration: none;
+  border: none;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .cart{
+    display: none;
+  }
+}
+
+
